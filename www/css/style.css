@@ -1,0 +1,59 @@
+.live-bg-img {
+	background: url(../img/a14.jpg) no-repeat
+	center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.live-img {
+	margin: 0 auto;
+	margin-top: 220px;
+	text-align: center;
+	border: 2px solid white;
+	border-radius: 50px;
+	background-color: orange;
+}
+
+
+div.rounded{
+	padding: 10px;
+	border: 2px solid #254117;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	background-color: grey;
+	color: white;
+	text-align: center;
+}
+
+
+
+div.score{
+	padding: 10px;
+	border-radius: 10px;
+	-moz-border-radius: 15px;
+	text-align: center;
+	background-color: blue;
+	color: white ;
+}
+
+div.test{
+	padding: 10px;
+	border-radius: 10px;
+	-moz-border-radius: 15px;
+	text-align: center;
+}
+
+.over{
+	padding: 5px;
+	border-radius: 10px;
+	border-color: #254117;
+	-moz-border-radius: 15px;
+	
+}
+
+.custom-dark{
+    color : #30393A !important;
+    background-color:blue!important; 
+ }

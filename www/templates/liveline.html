@@ -1,0 +1,127 @@
+<ion-pan ng-init="lineCtrl.getUpdates()">
+  <ion-header-bar align-title="center" class="bar-balanced">
+  	<a class="button icon-left ion-chevron-left button-clear" ng-click="lineCtrl.myGoBack()"></a>
+  	<h1 class="title">Live Line</h1>
+    	<a class="button icon-left ion-loop button-clear" ng-click="lineCtrl.getRefresh()"></a>
+	</ion-header-bar>
+	
+<ion-content class="liveline-bg has-header">
+
+		<div class="card">
+		 	<div class="item item-text-wrap">
+				<div class="row">
+					<div class="col col-33 rounded">
+						<div>{{lineCtrl.getData.match_between}}</div>
+					</div>
+
+					<div class="col col-67 score-rounded">
+						<div class="row">
+							<div class="col col-33" style="color:#254117; text-align:center;">
+								Run/W
+							</div>
+						 <div class="col col-33" style="color:#254117; text-align:center;">
+						 	Over
+						 </div>
+						
+							<div class="col col-33" style="color:#254117; text-align:center;">
+								Target
+							</div>
+						</div>
+
+						<div class="row">
+						 <div class="col col-33">
+						 	<div class="score">0/0</div>
+						 </div>
+						
+							<div class="col col-30">
+								<div class="score">0</div>
+							</div>
+						 <div class="col col-33">
+						 	<div class="score">0</div>
+						 </div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="card">
+  		<div class="item item-text-wrap">
+    		<div class="row">
+					<div class="col col-50" style="color:#254117; text-align:center;">
+						Market Rate
+					</div>
+
+					<div class="col col-50" style="color:#254117; text-align:center;">
+						Favourite
+					</div>
+				</div>
+				<div class="row">
+					<div class="col col-50">
+						<div class="row">
+							<div class="col col-50">
+								<div class="test" style="background-color:blue; color:white;">{{lineCtrl.getData.rate1}}</div>
+							</div>
+							<div class="col col-50">
+								<div class="test" style="background-color:green; color:white;">{{lineCtrl.getData.rate2}}</div>
+							</div>
+						</div>
+					</div>
+					<div class="col col-50">
+						<div class="row">
+							<div class="col">
+								<div class="test" style="background-color:grey; color:white;">{{lineCtrl.getData.favourite_team}}</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="card">
+  		<div class="item item-text-wrap">
+    		<div class="row">
+					<div class="col col-67" style="color:#254117; text-align:left;">
+						Session
+					</div>
+
+					<div class="col col-33" style="color:#254117; text-align:center;">
+						Run X Ball
+					</div>
+				</div>
+				<div class="row">
+					
+					<div class="col col-20 ">
+						Overs -
+					</div>
+					<div class="col col-20 over">
+						
+					</div>
+					<div class="col col-20 ">
+						
+					</div>
+					<div class="col col-20">
+						
+					</div>
+
+					<div class="col col-20">
+					
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="item item-text-wrap" align="center">
+				UP TO 9 LAKHS USER ARE USING THIS APP ONLY FIRST 5 LAKHS MEMBERS GET FASTER UPDATE REST MEMBERS MAY GET SLOW UPDATE GOOD NEWS WE LAUNCHED A PAID VERSION APP JUST 1000 INDIAN RUPEES its VERY FAST NEVER GET SLOW
+
+				<div style="margin-top:10px;">CrickTrick</div>
+
+				<div style="margin-top:10px;">SEARCH IN GOOGLE PLAY STORE</div>
+			</div>
+		</div>
+	</ion-content>
+	</ion-view>
+</ion-pan>
