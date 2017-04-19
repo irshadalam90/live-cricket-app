@@ -45,15 +45,11 @@ div.test{
 	text-align: center;
 }
 
-.over{
-	padding: 5px;
+div.over{
+	padding: 10px;
 	border-radius: 10px;
-	border-color: #254117;
+	border: 1px solid #254117;
 	-moz-border-radius: 15px;
-	
+	text-align: center;
+	border-color: 
 }
-
-.custom-dark{
-    color : #30393A !important;
-    background-color:blue!important; 
- }
